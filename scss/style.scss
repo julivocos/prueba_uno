@@ -5,12 +5,13 @@
 
 
 *{
-    margin:0;
-    padding: 0;
+ margin:0;
+ padding: 0;
 }
        
-    
-    header{
+
+
+header{
         display: grid;
         align-items: center;
         text-align: center;
@@ -62,11 +63,10 @@
         
         }
 
-    }   
+}   
 
- 
-    
-    #button_a{/*boton pedi tu turno*/
+
+#button_a{/*boton pedi tu turno*/
         background-color:$color_boton;
         color:  $color_textos;
         text-align: center;
@@ -81,9 +81,9 @@
            color:black;
        }
        
-    }
+}
 
-   main{
+main{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         background-image: linear-gradient(
             1deg,
@@ -96,11 +96,11 @@
         background-size: cover; 
         background-position: center;    
 
-    }
+}
 
 
 
-    footer{
+footer{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:$color_textos;    
     font-style: italic;
@@ -115,11 +115,11 @@
         margin-bottom: 15px;
     }
  
-    }
+}
 
 
     
-    @media only screen and (max-width:600px){/*MOBILE*/
+@media only screen and (max-width:600px){/*MOBILE*/
         .titulos{    
             @include estilos_titulos("titulosm")
             
@@ -333,11 +333,11 @@
     
         }
     
-    }
+}
     
     
     
-    @media only screen and (min-width:601px){/*DESKTOP*/
+@media only screen and (min-width:601px){/*DESKTOP*/
        
         .titulos{    
             @include estilos_titulos("titulolg")
@@ -534,11 +534,11 @@
         }
         
     
-    }
+}
     
    
 
-    #container_index{   /*PAGINA INICIO*/ 
+#container_index{   /*PAGINA INICIO*/ 
         display: flex;
         flex-direction: column  ; 
         justify-content: center;
@@ -592,9 +592,9 @@
            
          }
  
-    }
+}
     
-    #container_serv{/*PAGINA SERVICIOS */
+#container_serv{/*PAGINA SERVICIOS */
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -638,9 +638,9 @@
 
 
 
-    } 
+} 
     
-    .div_consejos{/*PAGINA CONSEJOS*/
+.div_consejos{/*PAGINA CONSEJOS*/
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -691,9 +691,9 @@
             border-radius: 10px;
         }
         
-    }
+}
    
-    .grid_ubicacion{ /*PAGINA UBICACION*/
+.grid_ubicacion{ /*PAGINA UBICACION*/
         display: grid;
         grid-template-columns: 100%;
         grid-template-areas:"titulo"  
@@ -741,9 +741,9 @@
         
         }
 
-    }
+}
     
-    .div_contacto{/*PAGINA CONTACTO*/ 
+.div_contacto{/*PAGINA CONTACTO*/ 
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -767,7 +767,7 @@
                
         }
         
-    }
+}
     
     
     
