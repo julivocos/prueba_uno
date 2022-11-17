@@ -3,10 +3,9 @@
   padding: 0;
 }
 
-* {
-  box-sizing: border-box;
+@-ms-viewport {
+  width: device-width;
 }
-
 header {
   display: grid;
   align-items: center;

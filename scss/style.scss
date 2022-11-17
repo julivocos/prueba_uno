@@ -9,7 +9,11 @@
  padding: 0;
 }
        
+@-ms-viewport{
 
+    width: device-width;
+    
+}
 
 header{
         display: grid;
